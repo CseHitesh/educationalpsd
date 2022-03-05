@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './component/Header';
 import MainSection from './component/MainSection';
 import Department from './component/Department';
