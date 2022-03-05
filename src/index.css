@@ -1,13 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #5a6e79;
+}
+/* header sart   */
+
+#myheader {
+  height: 80px;
+
+  background-color: #fff9f3 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Navbar {
+  background-color: #fff9f3 !important;
+}
+.active {
+  color: rgba(255, 193, 120, 1) !important;
+  font-weight: 600;
+}
+
+.mybtn {
+  color: rgba(255, 193, 120, 1) !important;
+  background-color: white;
+  border-radius: 20px;
+
+  width: 129px;
+  text-align: center;
+  margin-left: 35px;
+}
+
+.mybtn:hover {
+  background-color: rgba(255, 193, 120, 1);
+  color: white !important;
+}
+
+/* header end   */
+
+/* Main section start  */
+
+.main-section {
+  background-image: url("./resources/Background.png");
+
+  height: 740px;
+
+  background-repeat: no-repeat;
+  /* background-position: relative; */
+  background-position-x: center;
+
+  /* opacity: 1; */
+
+  background-color: #fff9f3;
+}
+
+.All-main-content {
+  /* display: none; */
+  /* border: 2px solid green; */
+}
+
+.main-writing {
+  /* margin-left: 300px; */
+  padding-top: 125px;
+}
+
+.my-btn1 {
+  height: 59px;
+  width: 219px;
+  border-radius: 25px;
+  background-color: rgba(255, 193, 120, 1);
+  border: none;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 20px;
+}
+.my-btn1:hover {
+  background-color: rgb(230, 151, 62);
+}
+
+.m-heading-text {
+  color: #ffc178;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+}
+
+/* main section end here  */
+
+/* Department section start here  */
+
+#dp-text-pg {
+  max-width: 578px;
+  margin: auto;
+  text-align: justify-all;
+  font-size: large;
+  font-weight: 300;
+  margin-bottom: 65px;
+}
+
+#dpimg {
+  width: 100%;
+}
+.mydpcol {
+  width: 33%;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+#mydpcol1 {
+  background-color: #f8714c;
+}
+#mydpcol2 {
+  background-color: #fcb056;
+}
+#mydpcol3 {
+  background-color: #80be41;
+}
+
+/* department end here  */
+
+/* limitation start  */
+
+#Limitaion {
+}
+
+.limitation-text-h3 {
+  font-size: 40px;
+}
+
+/* limitation Section End  */
+
+/* around the univercity secton start  */
+
+.around-univercity {
+}
+.auimgrow1 {
+  margin-top: 10px;
+  width: 100%;
+  height: 220px;
+}
+
+.mycol {
+  border-radius: 15px;
+  padding-top: 10px;
+}
+/* around the univercity secion End  */
+
+/* footer  */
+
+.my-footer {
+  background-color: rgba(37, 44, 58, 1);
+
+  height: 350px;
+}
+.footer-bottom {
+  background-color: rgba(29, 35, 46, 1);
+  font-size: 20px;
+  text-align: center;
+}
+.footer-bottom a {
+  text-decoration: none;
+  color: #4b5d67;
+
+  margin: 10px 0px;
+}
+
+#ft-icons a {
+  text-decoration: none;
+  color: #5a6e79 !important;
+}
+
+/* media query for tablet   */
+@media only screen and (max-width: 992px) {
+  /* header :start */
+
+  .mybtn {
+    margin: auto;
+    margin-bottom: 39px !important;
+  }
+
+  /* header end  */
+
+  /* main section  */
+
+  .main-section {
+    /* background-image: url("./resources/Background.png"); */
+
+    /* height: 740px; */
+
+    background-repeat: no-repeat;
+    /* background-position: relative; */
+    background-position-x: 70%;
+  }
+
+  .mydpcol {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* media query for Phone   */
+
+@media only screen and (max-width: 700px) {
+  /*
+     Main section 
+     */
+  .main-section {
+    border-top: 1px solid rgb(230, 189, 162);
+    height: 368px;
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 210px;
+    background-size: contain;
+  }
+
+  .main-writing {
+    /* margin-left: 300px; */
+    padding-top: 15px;
+  }
+
+  .my-btn1 {
+    height: 40px;
+    width: 124px;
+    font-size: 11px;
+  }
+  .my-btn1:hover {
+    background-color: rgb(230, 151, 62);
+  }
+  /* 
+Department section here 
+ */
+
+  .mydpcol {
+    width: 100%;
+    height: 390px;
+  }
+
+  #dp-text-pg {
+    margin-bottom: 14px;
+  }
+
+  /* limitaiton sectio   */
+
+  .limitation-text-h3 {
+    font-size: 30px;
+  }
+
+  /* footer seciton  */
+
+  .my-footer {
+    margin-top: 20px;
+    background-color: rgba(37, 44, 58, 1);
+
+    height: 850px;
+  }
+  #footer-bottom {
+    background-color: rgba(29, 35, 46, 1);
+    font-size: 10px;
+    margin: 0px !important;
+  }
 }
